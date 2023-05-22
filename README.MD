@@ -8,6 +8,7 @@ Solving [problems](https://leetcode.com/problemset/all/) in LeetCode. [My profil
 | 9    | [Palindrome number](https://leetcode.com/problems/palindrome-number/)                                                   | [Python](python/9_palindrome_number.py)             | Easy       |
 | 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                     | [Python](python/13_roman_to_integer.py)             | Easy       |
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                           | [Python](python/14_longest_common_prefix.py)        | Easy       |
+| 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                   | [Python](python/20_valid_parentheses.py)            | Easy       |
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                               | [Python](python/58_length_of_last_word.py)          | Easy       |
 | 66   | [Plus One](https://leetcode.com/problems/plus-one/)                                                                     | [Python](python/66_plus_one.py)                     | Easy       | 
 | 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                                     | [Python](python/125_valid_palindrome.py)            | Easy       |
