@@ -8,7 +8,9 @@ Solving [problems](https://leetcode.com/problemset/all/) in LeetCode. [My profil
 | 9    | [Palindrome number](https://leetcode.com/problems/palindrome-number/)                                                   | [Python](python/9_palindrome_number.py)             | Easy       |
 | 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                     | [Python](python/13_roman_to_integer.py)             | Easy       |
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                           | [Python](python/14_longest_common_prefix.py)        | Easy       |
+| 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                               | [Python](python/58_length_of_last_word.py)          | Easy       |
 | 66   | [Plus One](https://leetcode.com/problems/plus-one/)                                                                     | [Python](python/66_plus_one.py)                     | Easy       | 
+| 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                                     | [Python](python/125_valid_palindrome.py)            | Easy       |
 | 169  | [Majority Element](https://leetcode.com/problems/majority-element/)                                                     | [Python](python/169_majority_element.py)            | Easy       |
 | 383  | [Ransom Note](https://leetcode.com/problems/ransom-note/)                                                               | [Python](python/1480_running_sum.py)                | Easy       |
 | 412  | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)                                                                   | [Python](python/412_fizz_buzz.py)                   | Easy       |
