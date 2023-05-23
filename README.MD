@@ -6,6 +6,7 @@ Solving [problems](https://leetcode.com/problemset/all/) in LeetCode. [My profil
 |------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|------------|
 | 1    | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                       | [Python](python/1_two_sum.py)                       | Easy       |
 | 9    | [Palindrome number](https://leetcode.com/problems/palindrome-number/)                                                   | [Python](python/9_palindrome_number.py)             | Easy       |
+| 12   | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                     | [Python](python/12_integer_to_roman.py)             | Medium     |
 | 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                     | [Python](python/13_roman_to_integer.py)             | Easy       |
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                           | [Python](python/14_longest_common_prefix.py)        | Easy       |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                   | [Python](python/20_valid_parentheses.py)            | Easy       |
