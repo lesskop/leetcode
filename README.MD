@@ -15,7 +15,9 @@ Solving [problems](https://leetcode.com/problemset/all/) in LeetCode. [My profil
 | 36   | [Valid Sudoku](https://leetcode.com/problems/sudoku-solver/)                                                                    | [Python](python/36_valid_sudoku.py)                  | Medium     |
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                                       | [Python](python/58_length_of_last_word.py)           | Easy       |
 | 66   | [Plus One](https://leetcode.com/problems/plus-one/)                                                                             | [Python](python/66_plus_one.py)                      | Easy       | 
+| 67   | [Add Binary](https://leetcode.com/problems/add-binary/)                                                                         | [Python](python/67_add_binary.py)                    | Easy       |
 | 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                                             | [Python](python/125_valid_palindrome.py)             | Easy       |
+| 168  | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)                                             | [Python](python/168_excel_sheet_column_title.py)     | Easy       |
 | 169  | [Majority Element](https://leetcode.com/problems/majority-element/)                                                             | [Python](python/169_majority_element.py)             | Easy       |
 | 383  | [Ransom Note](https://leetcode.com/problems/ransom-note/)                                                                       | [Python](python/1480_running_sum.py)                 | Easy       |
 | 412  | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)                                                                           | [Python](python/412_fizz_buzz.py)                    | Easy       |
