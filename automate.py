@@ -3,44 +3,41 @@ from pathlib import Path
 from config import Problem, README_FILE, LANG_TO_EXT, LEETCODE_PROBLEMS_URL
 
 
-def create_empty_file(p: Problem) -> None:
-    ext = LANG_TO_EXT.get(p.language)
-    file = f"{p.number}_{p.title.lower().replace(' ', '_')}.{ext}"
-    path = Path(p.language.lower()) / file
+class Solution:
+    def __init__(self, p: Problem) -> None:
+        self.extension = LANG_TO_EXT.get(p.language)
+        self.filename = f"{p.number}_{p.title.lower().replace(' ', '_')}.{self.extension}"
+        self.filepath = Path(p.language.lower()) / self.filename
 
-    try:
-        path.touch(exist_ok=False)
-    except FileExistsError:
-        print(f'File "{path}" already exists')
+        self.problem_md_link = f"[{p.title}]({LEETCODE_PROBLEMS_URL}/{p.title.lower().replace(' ', '-')}/)"
+        self.solution_md_link = f"[{p.language}]({self.filepath})"
 
+        self.md_table_row = f"\n|{p.number}|{self.problem_md_link}|{self.solution_md_link}|{p.difficulty}|"
 
-def get_leetcode_problem_link(p: Problem) -> str:
-    return f"[{p.title}]({LEETCODE_PROBLEMS_URL}/{p.title.lower().replace(' ', '-')}/)"
+    def add_new_row_to_readme(self) -> None:
+        if not self.filepath.exists():
+            with open(README_FILE, 'a') as file:
+                file.write(self.md_table_row)
 
-
-def get_solution_link(p: Problem) -> str:
-    lang = p.language
-    ext = LANG_TO_EXT.get(lang)
-    solution_file = f"{p.number}_{p.title.lower().replace(' ', '_')}.{ext}"
-    return f"[{lang}]({lang.lower()}/{solution_file})"
-
-
-def get_table_row_for_solution(p: Problem) -> str:
-    return f"\n|{p.number}|{get_leetcode_problem_link(p)}|{get_solution_link(p)}|{p.difficulty}|"
-
-
-def add_new_row_to_readme(row: str) -> None:
-    with open(README_FILE, 'a') as file:
-        file.write(row)
+    def create_empty_file(self) -> None:
+        try:
+            self.filepath.touch(exist_ok=False)
+        except FileExistsError:
+            print(f'File "{self.filepath}" already exists')
 
 
 if __name__ == '__main__':
     problem = Problem(
-        number=577,
-        title='Employee Bonus',
-        language='SQL',
-        difficulty='Easy'
+        number=0,
+        title='title',
+        language='Python',
+        # language='SQL',
+        difficulty='Easy',
+        # difficulty='Medium',
+        # difficulty='Hard',
     )
 
-    create_empty_file(problem)
-    add_new_row_to_readme(get_table_row_for_solution(problem))
+    solution = Solution(problem)
+
+    solution.add_new_row_to_readme()
+    solution.create_empty_file()
