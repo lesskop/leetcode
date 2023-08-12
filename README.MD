@@ -29,6 +29,8 @@ Solving [problems](https://leetcode.com/problemset/all/) in LeetCode. [My profil
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Python](python\50_pow(x,_n).py)|Medium|
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                                                         | [Python](python/58_length_of_last_word.py)                                       | Easy       |
 | 61   | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                         | [Python](python\61_rotate_list.py)                                               | Medium     |
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Python](python\62_unique_paths.py)|Medium|
+|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Python](python\63_unique_paths_ii.py)|Medium|
 | 66   | [Plus One](https://leetcode.com/problems/plus-one/)                                                                                               | [Python](python/66_plus_one.py)                                                  | Easy       | 
 | 67   | [Add Binary](https://leetcode.com/problems/add-binary/)                                                                                           | [Python](python/67_add_binary.py)                                                | Easy       |
 |74|[Search a 2d Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Python](python\74_search_a_2d_matrix.py)|Medium|
