@@ -24,9 +24,11 @@ Solving [problems](https://leetcode.com/problemset/all/) in LeetCode. [My profil
 | 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                                                   | [Python](python/35_search_insert_position.py)                                    | Easy       |
 | 36   | [Valid Sudoku](https://leetcode.com/problems/sudoku-solver/)                                                                                      | [Python](python/36_valid_sudoku.py)                                              | Medium     |
 | 37   | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                                                                                     | [Python](python/37_sudoku_solver.py)                                             | Hard       |
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python](python\45_jump_game_ii.py)|Medium|
 | 46   | [Permutations](https://leetcode.com/problems/permutations/)                                                                                       | [Python](python\46_permutations.py)                                              | Medium     |
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Python](python\49_group_anagrams.py)|Medium|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Python](python\50_pow(x,_n).py)|Medium|
+|55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python](python\55_jump_game.py)|Medium|
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                                                         | [Python](python/58_length_of_last_word.py)                                       | Easy       |
 | 61   | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                         | [Python](python\61_rotate_list.py)                                               | Medium     |
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Python](python\62_unique_paths.py)|Medium|
